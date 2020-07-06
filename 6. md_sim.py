@@ -1,6 +1,5 @@
 from particles import *
 
-
 class Simulation():
 
 	def __init__(self, steps, input_file, box_length):
