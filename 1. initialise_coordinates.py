@@ -1,6 +1,5 @@
 import numpy as np 
 
-
 def initialise_positions(box_length, min_distance, pos_file):
 	coordinates = open(pos_file,'w')
 	atom_l = int(box_length/min_distance)
